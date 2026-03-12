@@ -36,6 +36,64 @@
 	}
 	.center{
 		flex: 1;
+		padding: 20px;
+		overflow: auto;
+		display: flex;
+		flex-direction: column;
+		gap:20px;
+		.recvMessage{
+			display: flex;
+			max-width: 70%;
+			.texts{
+				flex: 1;
+				display: flex;
+				flex-direction: column;
+				gap:5px;
+				p{
+					padding: 20px;
+					background-color: rgba(17,25,40,0.3);
+					border-radius: 10px;
+				}
+				span{
+					font-size: 10px;
+				}
+			}
+
+		}
+		.sentMessage{
+			align-self: flex-end;
+			display: flex;
+			max-width: 70%;
+			.texts{
+				img{
+					width: 100%;
+					height: 300px;
+					border-radius: 10px;
+					object-fit: cover;
+				}
+				p{
+					background-color: #5183fe;
+					padding: 20px;
+					border-radius: 10px;
+				}
+				span{
+					font-size: 10px;
+				}
+			}	
+		}
+		img{
+			width: 30px;
+			height: 30px;
+			border-radius: 50%;
+			object-fit: cover;
+		}
+		.texts{
+			flex: 1;
+			display: flex;
+			flex-direction: column;
+			gap:5px;
+		}
+
 	}
 	.bottom{
 		padding: 20px;

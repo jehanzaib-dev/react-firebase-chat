@@ -29,7 +29,49 @@ const Chat=()=>{
 		</div>
 		</div>
 		<div className="center">
-				Center
+			<div className="recvMessage">
+			<img src="./avatar.png" alt=""/>
+			<div className="texts">
+			<p>Hello,how are you</p>
+			<span>1 min ago</span>
+			</div>
+			</div>
+			<div className="sentMessage">
+			<div className="texts">
+			<p>Hello,how are you</p>
+			<span>1 min ago</span>
+			</div>
+			</div>
+			<div className="recvMessage">
+			<img src="./avatar.png" alt=""/>
+			<div className="texts">
+			<p>Hello,how are you</p>
+			<span>1 min ago</span>
+			</div>
+			</div>
+			<div className="sentMessage">
+			<div className="texts">
+			<p>Hello,how are you</p>
+			<span>1 min ago</span>
+			</div>
+			</div>
+			<div className="recvMessage">
+			<img src="./avatar.png" alt=""/>
+			<div className="texts">
+			<p>Hello,how are you</p>
+			<span>1 min ago</span>
+			</div>
+			</div>
+			<div className="sentMessage">
+
+			<div className="texts">
+			<img src="./cat.jpg" alt="image"/>
+			<p>Hello,how are you</p>
+			<span>1 min ago</span>
+			</div>
+			</div>
+
+
 		</div>
 		<div className="bottom">
 			<div className="icons">
