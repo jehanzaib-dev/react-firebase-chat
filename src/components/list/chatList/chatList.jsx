@@ -1,4 +1,5 @@
 import './chatList.css';
+import AddUser from './addUser/addUser.jsx';
 import {useState} from 'react';
 
 
@@ -61,7 +62,7 @@ const ChatList=()=>{
 
 
 
-
+		<AddUser/>
 		</div>
 		)
 

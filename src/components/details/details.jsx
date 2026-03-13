@@ -78,7 +78,7 @@ const Details=()=>{
 			</div>
 			</div>
 		<button>Block User</button>
-
+		<button className="logoutBtn">Logout</button>
 		</div>
 
 
